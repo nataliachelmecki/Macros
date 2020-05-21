@@ -26,5 +26,9 @@ F12:: ; stop moving with hotkey F12
 Send, {Right up}
 Sleep, 1
 Send, {Left up}
+Sleep, 1
+Send, {Space down}
+Sleep, 1
+Send, {Space up}
 Reload
 Return
