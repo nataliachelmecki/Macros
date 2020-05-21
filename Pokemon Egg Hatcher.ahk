@@ -5,15 +5,15 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #IfWinActive, VisualBoyAdvance
 
-`:: ; start mining with hotkey grave accent
+`:: ; start moving with hotkey grave accent
 Loop {
 
-; hold the LeftMouseButton for 30 minutes
+; speed up the game by pressing space
 Send, {Space down} ;
-Send, {Left down} ; hold LeftMouseButton
+Send, {Left down} ; go left
 Sleep, 10 ; wait 30 minutes
 Send, {Left up} 
-Send, {Right down} ; release LeftMouseButton
+Send, {Right down} ; go right
 Sleep, 10
 Send, {Right up} ;
 
@@ -22,7 +22,7 @@ Send, {Right up} ;
 Return
 
 
-F12:: ; stop mining with hotkey F12
+F12:: ; stop moving with hotkey F12
 Send, {Right up}
 Sleep, 1
 Send, {Left up}
