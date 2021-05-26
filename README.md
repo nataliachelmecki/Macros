@@ -16,7 +16,7 @@ Allows you to leave the game and come back to finished tasks/items.
 
 
 
-![Image of Pokemon](https://cdn.bulbagarden.net/upload/d/dd/New_Bark_Town_HGSS.png)
+![Image of Pokemon](https://media.rawg.io/media/resize/420/-/screenshots/256/2568bd7091069360362b9d6e23f73e8d.jpg)
 
 Using VisualBoyADvance as a GBA/GBC emulator, use the default controls. 
 Stand in an area without grass and with lots of room to run side to side.
